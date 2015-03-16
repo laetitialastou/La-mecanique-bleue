@@ -6,10 +6,6 @@ $(document).ready(function() {
 });
 
 function slideShow(speed) {
-
-  // append an 'li' item to the 'ul' list for displaying the caption
-  $('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><p></p></div></li>');
-
   // set the opacity of all images to 0
   $('ul.slideshow li').css({opacity: 0.0});
   
