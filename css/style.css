@@ -30,7 +30,7 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 250% 'News Cycle', Arial, sans-serif;
+{ font: normal 250% 'News Cycle',, sans-serif;
   color: #FFF;
   letter-spacing: -1px;
   margin: 0 0 10px 0;}
