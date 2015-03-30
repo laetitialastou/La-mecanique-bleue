@@ -14,7 +14,6 @@ html
 body
 { font: normal 80% Arial, Helvetica, sans-serif;
   color: #FFF;
-  text-shadow: 1px 1px #000;
   background: transparent url(../images/background.jpg) repeat;}
 
 /* tell the browser to render HTML 5 elements as block */
@@ -232,24 +231,34 @@ footer a:hover
 { text-decoration: underline;}
  
  .button_small
-{ font: normal 110% Arial, Helvetica, sans-serif;
-  width: 80px;
-  padding: 5px 2px 7px 2px;
+{ font: normal 80% Arial, Helvetica,sans-serif;
+  width: 200px;
+  padding: 5px 3px 7px 2px;
   background: #CCC;
-  background: -moz-linear-gradient(#FFF, #BBB);
+background: -moz-linear-gradient(#FFF, #BBB);
   background: -o-linear-gradient(#FFF, #BBB);
   background: -webkit-linear-gradient(#FFF, #BBB); 
-  border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border: 7px 7px 7px 7px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px;}
   
 .button_small a
-{ color: #000;
-  text-shadow: 1px 1px #FFF;
+{
+    font:bold 120% Arial, Helvetica;
+    
+    color: #000;
   padding-left: 5px;}
+
+.description
+{ color: #000;
+padding-left: 5px;
+text-shadow: 1px 1px #FFF;
+display: none;
+}
+
 
 .form_settings
 { margin: 15px 0 0 0;}
